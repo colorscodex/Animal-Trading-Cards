@@ -1,5 +1,5 @@
-/*  For all browsers
- */
+/*  For all browsers.
+    ================= */
 *{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -10,7 +10,7 @@
 /*
 *   For preventing adjustments of font size after 
 *   orientation changes in IE and iOS.
-*   ===========================================
+*   =============================================
 */
 
 html {
@@ -19,49 +19,58 @@ html {
     -webkit-text-size-adjust: 100%;
 }
 
-/*  
+/*  Colors supported by all browsers.
+    =================================
+
+body > background-color     Azure #f0ffff; 
+card >  border              Gainsboro #dcdcdc;  
+        box-shadow          DarkGray #a9a9a9; 
+        background-color    LightSlateGray #778899; 
+        text-color          FloralWhite #fffaf0;
+        li span > color     Indigo #4b0082;
 */
-      
+
 body {        
-    background-color:  #fafafa;
+    background-color: #f0ffff;
     margin: 0;
 }
 
 .card {
     width: 320px;
-    box-shadow: 0px 5px 15px #999;
+    box-shadow: 0px 5px 15px #a9a9a9;
     border: 0.5px solid #dcdcdc;
     border-radius: 4px;
-    background-color:  #778899;
+    background-color: #778899;
     color: #fffaf0;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
 }
 
-/*  Title  */ 
+/*  Title
+    ===== */ 
      
 h3 {
     margin-left: 10px;	
     text-align: left;
 }
 
-/*   */
-
 em {
    font: italic 300 1em "Helvetica", sans-serif;
    text-align: center; 
 }
 
-/*  url Tiger image  */
+/*  url Tiger image
+    =============== */
 
-/**
-*  [url=https://commons.wikimedia.org/wiki/File%3APanthera_tigris_altaica_13_-_Buffalo_Zoo.jpg]
-*  [img]https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Panthera_tigris_altaica_13_-_Buffalo_Zoo.jpg/512px-Panthera_tigris_altaica_13_-_Buffalo_Zoo.jpg[/img][/url]
-*  [url=https://commons.wikimedia.org/wiki/File%3APanthera_tigris_altaica_13_-_Buffalo_Zoo.jpg]Panthera tigris altaica 13 - Buffalo Zoo[/url] 
-*  [Public domain], by Dave Pape (Own work), from Wikimedia Commons
+/*
+    [url=https://commons.wikimedia.org/wiki/File%3APanthera_tigris_altaica_13_-_Buffalo_Zoo.jpg]
+    [img]https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Panthera_tigris_altaica_13_-_Buffalo_Zoo.jpg/512px-Panthera_tigris_altaica_13_-_Buffalo_Zoo.jpg[/img][/url]
+    [url=https://commons.wikimedia.org/wiki/File%3APanthera_tigris_altaica_13_-_Buffalo_Zoo.jpg]Panthera tigris altaica 13 - Buffalo Zoo[/url]
+    [Public domain], by Dave Pape (Own work), from Wikimedia Commons
 */
 
-/*  Image style */
+/*  Image style
+    =========== */
 
 img {
     width: 300px;
@@ -81,19 +90,20 @@ img {
     font: lighter 0.8em "Roboto", sans-serif;
 }
 
-/*  Remove padding-left and style the list items from the list  */
+/*  Remove padding-left and style the list items from the list.
+    ========================================================== */
       
 ul {
     padding-left: 0;
     list-style-type: none;
 }
     
-/*  Style Animal's list items  */
+/*  Style Animal's list items.
+    ========================== */
        
 li {        
     margin-bottom: 5px;
 }
-
 
 li span {
     font: bold 1.12em "Roboto", sans-serif;        
